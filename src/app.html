@@ -1,0 +1,17 @@
+﻿<div class="container">
+    <div>
+        <h2 id="Selection">Sport</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <wj-flex-pie [itemsSource]="itemsSource"
+                             [binding]="'value'"
+                             [bindingName]="'name'"
+                             [selectionMode]="'Point'"
+                             [selectedItemPosition]="selectedPosition"
+                             [selectedItemOffset]="selectedOffset"
+                             [isAnimated]="isAnimated">
+                </wj-flex-pie>
+            </div>
+        </div>
+    </div>
+</div>
